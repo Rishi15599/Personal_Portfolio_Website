@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+.container {
+    display: flex;
+}
+
+
+/* ----------------------------------------------Sidebar---------------------------------------------- */
+.sidebar {
+    background-color: orangered;
+    width: 20%;
+    font-size: sans-serif;
+    height: 100%;
+}
+
+.sidebar nav {
+    padding: 47px;
+}
+li {
+    list-style-type: none;
+}
+.sidebar nav li {
+    font-size: 30px;
+    padding: 17.5px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Home {
+    transition-delay: 0.1s;
+}
+
+.Home:hover {
+    transform: scale(1.4);
+    color: black;
+}
+.divInfoHome {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 465px;
+}
+
+/* -----------------------------------------Introduction-------------------------------------------------------- */
+.Introduction{
+    font-size: 80px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 400px;
+    border: 10px solid rgb(202, 202, 212);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(111, 64, 64);
+}
+.main {
+    background-color: yellow;
+    width: 80%;
+    height: 100%;
+}
+
+.infocontainer {
+    /* background-color: lightgreen; */
+    height: 100%;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.divInfoIntro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 355px;
+}
+
+.divInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.name:hover {
+    color: red;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: ;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+.logo{
+    margin-top: 100px;
+}
+.logoeffect:hover{
+    transform: scale(1.2);
+}
+
+/* ----------------------------- CV ------------------ */
+.divInfoCv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 753px;
+}
+/* ---------------------------- Education ------------------------ */
+.Education{
+    font-size: 80px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 400px;
+    border: 10px solid rgb(202, 202, 212);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(111, 64, 64);
+}
+.divInfoqualification {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 355px;
+}
+/* ---------------------------- AcademicProject ------------------------- */
+.AcademicProject{
+    font-size: 28px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 182px;
+    border: 10px solid rgb(202, 202, 212);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(111, 64, 64);
+}
+.divInfoAcademicProject {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 397px;
+}
+/* ---------------------------- Skills ---------------------------- */
+.Skills{
+    font-size: 30px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 550px;
+    border: 10px solid rgb(202, 202, 212);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(111, 64, 64);
+}
+.divInfoSkills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 395px;
+}
+/* ------------------------- ContactMe ------------------------ */
+.ContactMe{
+    font-size: 50px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 470px;
+    border: 10px solid rgb(202, 202, 212);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(111, 64, 64);
+}
+.divInfoContactMe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 350px;
+}
+
+.label {
+    padding-left: 80px;
+    color: blue;
+
+}
+
+.input {
+    padding-left: 80px;
+    color: blue;
+}
+
+.Textarea {
+    padding-left: 80px;
+}
+#resetSubmit{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+#resetSubmit:hover{
+    background-color: white;
+    color: blue;
+}
+
+/* ------------------------------ intro ------------------------------ */
+
+.intro {
+    font-size: 20px;
+    text-decoration: solid;
+    line-height: 40px;
+    word-spacing: 8px;
+    border: 10px solid rgb(202, 202, 212);
+    width: 1000px;
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 80px 80px 40px rgb(111, 64, 64);
+}
+
+/* ---------------------------------- githubProfile ----------------------------- */
+.githubProfile{
+    padding: 10px;
+    font-size: 50px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 417px;
+    border: 10px solid rgb(65, 145, 202);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(71, 135, 213);
+}
+.github {
+    font-size: 20px;
+    text-decoration: solid;
+    line-height: 40px;
+    word-spacing: 8px;
+    border: 10px solid rgb(65, 145, 202);
+    width: 330px;
+    margin: auto;
+    /* width: 1000px; */
+    background-color: rgb(65, 148, 203);
+    color: darkblue;
+    box-shadow: 80px 80px 40px rgb(71, 135, 213);
+}
+
+.githubtext {
+    color: white;
+    margin-left: 100px;
+}
+
+.githubLink {
+    text-decoration: none;
+}
+
+.githubtext:hover {
+    color: red;
+}
+.divInfogithubProfile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 603px;
+}
+
+/* -------------------------------LinkdinProfile ------------------------ */
+.LinkdinProfile{
+    padding: 10px;
+    font-size: 50px;
+    background-color: antiquewhite;
+    color: rgb(79, 79, 172);
+    margin-left: 400px;
+    border: 10px solid rgb(65, 145, 202);
+    background-color: rgb(192, 205, 213);
+    color: darkblue;
+    box-shadow: 50px 50px 30px rgb(71, 135, 213);
+}
+.linkdin {
+    font-size: 20px;
+    text-decoration: solid;
+    line-height: 20px;
+    word-spacing: 8px;
+    border: 10px solid rgb(65, 145, 202);
+    width: 530px;
+    margin: auto;
+    /* width: 1000px; */
+    background-color: rgb(65, 148, 203);
+    color: darkblue;
+    box-shadow: 80px 80px 40px rgb(71, 135, 213);
+}
+
+.linkdintext {
+    color: white;
+    margin-left: 200px;
+}
+.divInfoLinkdinProfile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    height: 528px;
+}
